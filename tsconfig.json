@@ -21,7 +21,8 @@
   },
   "include": [
     "lib/**/*.ts",
-    "lib/**/*.d.ts"
+    "lib/**/*.d.ts",
+    "lib/shared/constant"
   ],
   "exclude": [
     "__test__/**/*.ts"
