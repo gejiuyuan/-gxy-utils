@@ -1,0 +1,1 @@
+export type PlainObject<T = unknown> = Record<string, T>;
