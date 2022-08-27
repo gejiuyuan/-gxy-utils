@@ -1,0 +1,21 @@
+{
+  "name": "gxy-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "npx tsc --noEmit",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gejiuyuan/gxy-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gejiuyuan/gxy-utils/issues"
+  },
+  "homepage": "https://github.com/gejiuyuan/gxy-utils#readme"
+}
