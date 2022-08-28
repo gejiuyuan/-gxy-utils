@@ -1,1 +1,3 @@
-export * from './sort'
+/** @format */
+
+export * from './sort';

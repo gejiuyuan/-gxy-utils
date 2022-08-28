@@ -1,7 +1,7 @@
 /** @format */
 
-import { defaultComparatorBaseFn } from 'lib/shared/comparator';
-import { EMPTY_OBJECT } from 'lib/shared/constant';
+import { defaultComparatorBaseFn } from '../shared/comparator';
+import { EMPTY_OBJECT } from '../shared/constant';
 import { Sorter } from './types';
 
 /**
@@ -15,9 +15,9 @@ import { Sorter } from './types';
 export const insertionSort: Sorter = function (
 	arr,
 	comparator = defaultComparatorBaseFn,
-	{ from = 0, to = arr.length } = EMPTY_OBJECT,
+	{ from = 0, to = arr.length - 1 } = EMPTY_OBJECT,
 ) {
-	for (let i = from + 1; i < to; i++) {
+	for (let i = from + 1; i <= to; i++) {
 		const item = arr[i];
 		for (let j = i - 1; j >= 0; j--) {
 			const tmp = arr[j];
