@@ -4,7 +4,7 @@ const os = require('os');
 
 const conf = {
 	useTabs: true,
-	tabWidth: 4,
+	tabWidth: 2,
 	printWidth: 100,
 	semi: true,
 	endOfLine: os.platform() === 'win32' ? 'crlf' : 'lf',
